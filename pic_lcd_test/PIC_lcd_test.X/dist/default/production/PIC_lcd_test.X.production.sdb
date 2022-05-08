@@ -1,0 +1,87 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"10 D:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 D:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 D:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"25 C:\Users\Preethi\OneDrive\Documents\pic_lcd_test\PIC_lcd_test.X\Lcd_test.c
+[v _delay delay `(v  1 e 1 0 ]
+"34
+[v _lcd_enable lcd_enable `(v  1 e 1 0 ]
+"41
+[v _lcd_command lcd_command `(v  1 e 1 0 ]
+"50
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+"57
+[v _lcd_string lcd_string `(v  1 e 1 0 ]
+"65
+[v _main main `(v  1 e 1 0 ]
+"352 D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"414
+[v _PORTE PORTE `VEuc  1 e 1 @9 ]
+"1602
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1664
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"3387
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"4205
+[v _RE0 RE0 `VEb  1 e 0 @72 ]
+"4208
+[v _RE1 RE1 `VEb  1 e 0 @73 ]
+"65 C:\Users\Preethi\OneDrive\Documents\pic_lcd_test\PIC_lcd_test.X\Lcd_test.c
+[v _main main `(v  1 e 1 0 ]
+{
+"82
+} 0
+"57
+[v _lcd_string lcd_string `(v  1 e 1 0 ]
+{
+[v lcd_string@a a `*.24uc  1 a 1 wreg ]
+[v lcd_string@a a `*.24uc  1 a 1 wreg ]
+[v lcd_string@a a `*.24uc  1 a 1 9 ]
+"64
+} 0
+"50
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+{
+[v lcd_data@a a `uc  1 a 1 wreg ]
+[v lcd_data@a a `uc  1 a 1 wreg ]
+"52
+[v lcd_data@a a `uc  1 a 1 7 ]
+"55
+} 0
+"41
+[v _lcd_command lcd_command `(v  1 e 1 0 ]
+{
+[v lcd_command@a a `uc  1 a 1 wreg ]
+[v lcd_command@a a `uc  1 a 1 wreg ]
+"43
+[v lcd_command@a a `uc  1 a 1 7 ]
+"48
+} 0
+"34
+[v _lcd_enable lcd_enable `(v  1 e 1 0 ]
+{
+"40
+} 0
+"25
+[v _delay delay `(v  1 e 1 0 ]
+{
+"27
+[v delay@j j `i  1 a 2 5 ]
+[v delay@i i `i  1 a 2 3 ]
+"25
+[v delay@ms ms `i  1 p 2 0 ]
+"32
+} 0
